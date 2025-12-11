@@ -7,22 +7,22 @@
 
 ---
 
-## 🎯 Project Overview
+## Project Overview
 
 This project demonstrates enterprise-grade microservices architecture using **Istio service mesh** for traffic management and observability. The implementation showcases DevOps best practices including infrastructure automation, monitoring, and cloud deployment.
 
 ### What This Project Demonstrates
 
-- ✅ **Service Mesh Architecture** - Istio control plane and Envoy proxy sidecars
-- ✅ **Microservices Deployment** - Polyglot services (Python, Java, Ruby, Node.js)
-- ✅ **Traffic Management** - Intelligent routing with VirtualServices and Gateways
-- ✅ **Observability Stack** - Prometheus metrics collection + Grafana visualization
-- ✅ **Cloud Infrastructure** - k3s Kubernetes on AWS EC2
-- ✅ **Infrastructure as Code** - Helm charts and declarative YAML configs
+- **Service Mesh Architecture** - Istio control plane and Envoy proxy sidecars
+- **Microservices Deployment** - Polyglot services (Python, Java, Ruby, Node.js)
+- **Traffic Management** - Intelligent routing with VirtualServices and Gateways
+- **Observability Stack** - Prometheus metrics collection + Grafana visualization
+- **Cloud Infrastructure** - k3s Kubernetes on AWS EC2
+- **Infrastructure as Code** - Helm charts and declarative YAML configs
 
 ---
 
-## 📊 Live Application & Monitoring
+## Live Application & Monitoring
 
 ### Bookinfo Application
 
@@ -76,9 +76,9 @@ The Bookinfo application simulates a real-world microservices deployment with:
 
 ***
 
-## What I Learned (The Honest Part)
+## What I Learned
 
-**Problems I Actually Solved:**
+**Troubleshooting:**
 
 1. **k3s kube-proxy missing** - k3s uses ServiceLB instead of traditional kube-proxy. NodePort wasn't working initially. Fixed it.
 
@@ -90,7 +90,7 @@ The Bookinfo application simulates a real-world microservices deployment with:
 
 ***
 
-## 🚀 Deployment
+## Deployment
 
 ### Prerequisites
 
